@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Web.Optimization" Version="1.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Html.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <PackageReference Include="MySqlConnector" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\netstandard2.1\EFCore5\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\netstandard2.1\EFCore5\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4">
+      <HintPath>..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\netstandard2.1\EFCore5\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams">
+      <HintPath>..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\netstandard2.1\EFCore5\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash">
+      <HintPath>..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\netstandard2.1\EFCore5\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore">
+      <HintPath>..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\netstandard2.1\EFCore5\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Abstractions">
+      <HintPath>..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\netstandard2.1\EFCore5\Microsoft.EntityFrameworkCore.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Relational">
+      <HintPath>..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\netstandard2.1\EFCore5\Microsoft.EntityFrameworkCore.Relational.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\net7.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.EntityFrameworkCore">
+      <HintPath>..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\netstandard2.1\EFCore5\MySql.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.ConfigurationManager">
+      <HintPath>..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\netstandard2.1\EFCore5\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions">
+      <HintPath>..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\netstandard2.1\EFCore5\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\..\..\Program Files (x86)\Microsoft Visual Studio\Shared\Packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="ZstdNet">
+      <HintPath>..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\netstandard2.1\EFCore5\ZstdNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
