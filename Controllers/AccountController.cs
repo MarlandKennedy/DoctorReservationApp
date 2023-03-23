@@ -13,8 +13,8 @@ namespace DoctorReservationApp.Controllers
 
     public AccountController()
         {
-            foreach (ConnectionStringSettings connection in System.Configuration.ConfigurationManager.ConnectionStrings) { }
-                _connection = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString);
+            //foreach (ConnectionStringSettings connection in System.Configuration.ConfigurationManager.ConnectionStrings) { }
+                //_connection = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString);
         }
         [HttpGet]
         public ActionResult Login()
